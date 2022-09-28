@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  /*background: url("./BackgroundImg.jpg") no-repeat top / cover;*/
+}
+
+.img {
+  height: 500px;
+}
+
+.header {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  font-size: calc(10px + 2vmin);
+}
+
+.h2 {
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center !important;
+  background-color: rgba(169, 169, 169, 0.70);
+}
+
+.modal {
+  text-align: center;
+}
+
+.box1 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: bisque;
+  margin-bottom: 5px;
+}
+
+.box2 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  margin-bottom: 5px;
+}
+
+.box3 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: darkseagreen;
+  margin-bottom: 5px;
+}
+
+.box4 {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  background-color: lemonchiffon;
+  margin-bottom: 5px;
+}
+
+.text {
+  display: grid;
+  place-items: center;
+}
+
+.h2 {
+  text-align: left;
+}
+
+.hr {
+  width: 100%;
+  box-shadow: darkgrey;
+}
+
+.link {
+  color: #b318f0;
+}
