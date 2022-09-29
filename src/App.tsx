@@ -41,7 +41,7 @@ function App() {
                 <img src={"https://d1obh0a64dzipo.cloudfront.net/images/5856.jpg"} onClick={() => setIsOpen1(true)}/>
                 <Modal isOpen={modalIsOpen1} onRequestClose={() => setIsOpen1(false)}>
                   <div className={styles.modal}>
-                    <img src={"https://d1obh0a64dzipo.cloudfront.net/images/5856.jpg"}/>
+                    <img src={"https://d1obh0a64dzipo.cloudfront.net/images/5856.jpg"} width={"65%"}/>
                     <a href={"https://minorasu.basf.co.jp/80466"}><p>出典：農林水産省「農林業センサス」よりminorasu編集部作成</p></a>
                   </div>
                 </Modal>
@@ -63,7 +63,7 @@ function App() {
                 <img src={"https://www.ryutsu-kenkyusho.co.jp/cms/wp-content/uploads/2015/10/93F182CCE7DD82AA8Ea82E991E61848D86_907D87C.png"} onClick={() => setIsOpen2(true)}/>
                 <Modal isOpen={modalIsOpen2} onRequestClose={() => setIsOpen2(false)}>
                   <div className={styles.modal}>
-                    <img src={"https://www.ryutsu-kenkyusho.co.jp/cms/wp-content/uploads/2015/10/93F182CCE7DD82AA8Ea82E991E61848D86_907D87C.png"}/>
+                    <img src={"https://www.ryutsu-kenkyusho.co.jp/cms/wp-content/uploads/2015/10/93F182CCE7DD82AA8Ea82E991E61848D86_907D87C.png"} width={"75%"}/>
                     <a href={"https://www.ryutsu-kenkyusho.co.jp/columns/%E6%96%B0%E8%A6%8F%E5%B0%B1%E8%BE%B2%E3%81%AE%E8%AA%B2%E9%A1%8C%E3%81%A8%E5%B1%95%E6%9C%9B-%EF%BD%9E%E9%A0%91%E5%BC%B5%E3%82%8C%EF%BC%81%E6%96%B0%E8%A6%8F%E5%B0%B1%E8%BE%B2%E8%80%85%EF%BD%9E/"}><p>出典：全国農業会議所「新規就農者の就農実態に関する調査結果」ｎ=711</p></a>
                   </div>
                 </Modal>
@@ -93,7 +93,7 @@ function App() {
               <img src={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/img/einou1.jpg"} onClick={() => setIsOpen3(true)}/>
               <Modal isOpen={modalIsOpen3} onRequestClose={() => setIsOpen3(false)}>
                 <div className={styles.modal}>
-                  <img src={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/img/einou1.jpg"}/>
+                  <img src={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/img/einou1.jpg"} width={"75%"}/>
                   <a href={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/index.html"}><p>出典：農林水産省</p></a>
                 </div>
               </Modal>
@@ -106,7 +106,7 @@ function App() {
               <img src={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/img/jyugyou2.jpg"} onClick={() => setIsOpen4(true)}/>
               <Modal isOpen={modalIsOpen4} onRequestClose={() => setIsOpen4(false)}>
                 <div className={styles.modal}>
-                  <img src={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/img/jyugyou2.jpg"}/>
+                  <img src={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/img/jyugyou2.jpg"} width={"75%"}/>
                   <a href={"https://www.maff.go.jp/j/nousin/sekkei/midori/m_manabi/taiken/index.html"}><p>出典：農林水産省</p></a>
                 </div>
               </Modal>
