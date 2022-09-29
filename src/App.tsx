@@ -32,7 +32,7 @@ function App() {
             <ul className={styles.g_navi_ul}>
               <li className={styles.g_navi_ul_li}><Link to={"test1"} smooth={true}>あらまし</Link></li>
               <li className={styles.g_navi_ul_li}><Link to={"test2"} smooth={true}>どんな人材を育てたい？</Link></li>
-              <li className={styles.g_navi_ul_li}><Link to={"test3"} smooth={true}>どういうプログラムが必要？</Link></li>
+              <li className={styles.g_navi_ul_li}><Link to={"test3"} smooth={true}>どんなプログラムが必要？</Link></li>
               <li className={styles.g_navi_ul_li}><Link to={"test4"} smooth={true}>その人材の未来</Link></li>
             </ul>
           </nav>
