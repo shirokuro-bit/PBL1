@@ -25,7 +25,7 @@ function App() {
           </div>
           <Scene triggerElement={"#test1"}
                  triggerHook={1}
-                 indicators={true}
+                 indicators={false}
                  reverse={true}>
             <div id={"test1"}>
               <div className={styles.h2}>
