@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {Controller, Scene} from 'react-scrollmagic';
-import {animateScroll as scroll} from "react-scroll";
+import {animateScroll as scroll, Link} from "react-scroll";
 import Modal from 'react-modal';
 import './App.css';
 
@@ -28,6 +28,14 @@ function App() {
           <div className={styles.img}>
       
           </div>
+          <nav className={styles.g_navi}>
+            <ul className={styles.g_navi_ul}>
+              <li className={styles.g_navi_ul_li}><Link to={"test1"} smooth={true}>あらまし</Link></li>
+              <li className={styles.g_navi_ul_li}><Link to={"test2"} smooth={true}>どんな人材を育てたい？</Link></li>
+              <li className={styles.g_navi_ul_li}><Link to={"test3"} smooth={true}>どういうプログラムが必要？</Link></li>
+              <li className={styles.g_navi_ul_li}><Link to={"test4"} smooth={true}>その人材の未来</Link></li>
+            </ul>
+          </nav>
           <Scene triggerElement={"#test1"}
                  triggerHook={1}
                  indicators={false}
@@ -129,7 +137,6 @@ function App() {
               {/*<img alt={"かっこいい画像"}/>*/}
             </div>
           </div>
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
           <span className={styles.pageTop} onClick={() => scrollToTop()}>
             <i className={"material-symbols-outlined"}>arrow_upward</i>
           </span>
