@@ -1,5 +1,6 @@
 import React, {useEffect, useRef} from 'react';
 import {Controller, Scene} from 'react-scrollmagic';
+import {animateScroll as scroll} from "react-scroll";
 import Modal from 'react-modal';
 import './App.css';
 
@@ -13,6 +14,10 @@ function App() {
   const [modalIsOpen2, setIsOpen2] = React.useState(false);
   const [modalIsOpen3, setIsOpen3] = React.useState(false);
   const [modalIsOpen4, setIsOpen4] = React.useState(false);
+  
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  }
   
   return (
     <div className="App" style={{background: 'url(' + `${process.env.PUBLIC_URL}/BackgroundImg.jpg` + ') no-repeat top / cover'}}>
@@ -124,6 +129,10 @@ function App() {
               {/*<img alt={"かっこいい画像"}/>*/}
             </div>
           </div>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+          <span className={styles.pageTop} onClick={() => scrollToTop()}>
+            <i className={"material-symbols-outlined"}>arrow_upward</i>
+          </span>
         </main>
       </Controller>
     </div>
