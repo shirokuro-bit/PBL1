@@ -1,5 +1,4 @@
-import React, {useEffect, useRef} from 'react';
-import {Controller, Scene} from 'react-scrollmagic';
+import React from 'react';
 import {animateScroll as scroll, Link} from "react-scroll";
 import Modal from 'react-modal';
 import './App.css';
@@ -21,7 +20,6 @@ function App() {
   
   return (
     <div className="App" style={{background: 'url(' + `${process.env.PUBLIC_URL}/BackgroundImg.jpg` + ') no-repeat top / cover'}}>
-      <Controller>
         <Header/>
         <HorizontalRule/>
         <main>
@@ -36,10 +34,6 @@ function App() {
               <li className={styles.g_navi_ul_li}><Link to={"test4"} smooth={true}>その人材の未来</Link></li>
             </ul>
           </nav>
-          <Scene triggerElement={"#test1"}
-                 triggerHook={1}
-                 indicators={false}
-                 reverse={true}>
             <div id={"test1"}>
               <div className={styles.h2}>
                 <h2>あらまし</h2>
@@ -82,7 +76,6 @@ function App() {
                 </Modal>
               </div>
             </div>
-          </Scene>
           
       
           <div id={"test2"}>
@@ -141,7 +134,6 @@ function App() {
             <i className={"material-symbols-outlined"}>arrow_upward</i>
           </span>
         </main>
-      </Controller>
     </div>
   );
 }
